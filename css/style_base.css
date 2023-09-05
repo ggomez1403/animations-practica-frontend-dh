@@ -30,7 +30,6 @@ header .logo {
     margin-left: 20px;
 }
 
-/** Menú principal */
 nav ul {
     display: flex;
     justify-content: center;
@@ -151,7 +150,7 @@ nav ul li a:hover::before {
     border-right: 10px solid rgb(66, 139, 202);
     border-bottom: 10px solid rgb(202, 66, 129);
     border-left: 10px solid rgba(66, 139, 202, .2);
-    animation: spinner 0.5s linear infinite;
+    animation: spinner 0.7s linear infinite;
 }
 
 @keyframes spinner {
